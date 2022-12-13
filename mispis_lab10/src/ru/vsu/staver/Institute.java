@@ -10,16 +10,19 @@ public class Institute {
 	public String name;
 	public String address;
 
-	public void open(){
-
-	}
-	public void close(){
-
+	public String getName() {
+		return name;
 	}
 
-	public Integer showRating(){
-		Integer rating = 100;
-		return rating;
+	public void setName(String name) {
+		this.name = name;
 	}
 
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
 }
