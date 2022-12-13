@@ -39,14 +39,4 @@ public abstract class Employee {
 	public String email;
 	public int counter;
 
-	public void getJobDone(){
-
-	}
-	public void finishJob(){
-
-	}
-	public void getPaid(){
-
-	}
-
 }
