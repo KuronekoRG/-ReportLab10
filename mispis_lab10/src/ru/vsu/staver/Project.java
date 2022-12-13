@@ -8,17 +8,34 @@ public class Project {
 	public Date start;
 	public Date end;
 
-	public void getIntermediateResult(){
-
+	public Project(String name, Date start, Date end) {
+		this.name = name;
+		this.start = start;
+		this.end = end;
 	}
-	public void addToProject(){
 
+	public String getName() {
+		return name;
 	}
-	public void beginProject(){
 
+	public void setName(String name) {
+		this.name = name;
 	}
-	public void finishProject(){
 
+	public Date getStart() {
+		return start;
+	}
+
+	public void setStart(Date start) {
+		this.start = start;
+	}
+
+	public Date getEnd() {
+		return end;
+	}
+
+	public void setEnd(Date end) {
+		this.end = end;
 	}
 
 }
